@@ -1,4 +1,4 @@
-﻿const { Client,  VoiceChannel, GuildMember, PermissionFlagsBits } = require('discord.js');
+﻿const { Client,  VoiceChannel, GuildMember, PermissionFlagsBits, Guild } = require('discord.js');
 
 let sys = require('../Ayarlar/welcome.json');
 
