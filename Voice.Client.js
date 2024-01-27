@@ -1,6 +1,6 @@
 ﻿const { Client,  VoiceChannel, GuildMember, PermissionFlagsBits, Guild } = require('discord.js');
 
-let sys = require('../Ayarlar/welcome.json');
+let sys = require('./welcome.json');
 
 const {
     createAudioPlayer,
