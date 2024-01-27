@@ -1,8 +1,8 @@
-let { cartel } = require('../../base/Clients/Voice.Client');
+let { cartel } = require('./Voice.Client');
 const {
     joinVoiceChannel,
 } = require('@discordjs/voice');
-const voices = require("../../base/Ayarlar/welcome.json")
+const voices = require(".welcome.json")
 for (let index = 0; index < voices.tokens.length; index++) {
     let token = voices.tokens[index]
     let channel = voices.channels < 1 ? voices.channels[0] : voices.channels[index]
